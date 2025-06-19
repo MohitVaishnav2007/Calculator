@@ -1,84 +1,75 @@
-# 🧮 Calculator
+# Advanced Calculator 🧮
 
-A simple, lightweight, browser-based calculator built with HTML, CSS & JavaScript.
-
----
-
-## Table of Contents
-
-1. 🎯 [Features](#features)  
-3. 🛠 [Setup & Installation](#setup--installation)  
-4. 🚀 [Usage](#usage)  
-5. 🧱 [Project Structure](#project-structure)  
-6. 👨‍💻 [Tech Stack](#tech-stack)  
-7. 🤝 [Contributing](#contributing)  
-9. ⚙️ [Future Enhancements](#future-enhancements)
+A Python-based advanced calculator application built with `Tkinter`. This GUI calculator supports basic arithmetic operations as well as advanced mathematical functions like trigonometry, logarithms, square roots, and more. Built to be fast, user-friendly, and extendable.
 
 ---
 
-## 🎯 Features
+## 🚀 Features
 
-- ✅ Basic arithmetic: addition, subtraction, multiplication, division  
-- ➕ Decimal operations & precision support  
-- 🔄 Chained calculations with correct order-of-operations  
-
----
-
-## 🛠 Setup & Installation
-
-1. Clone the repo:
-    ```bash
-    git clone https://github.com/MohitVaishnav2007/calculator.git
-    cd calculator
-    ```
-2. Open `index.html` in your browser (Chrome, Firefox, Edge, etc.).
-
-No build tools or dependencies needed—it runs directly in the browser!
+- Basic operations: `+`, `-`, `*`, `/`, `%`
+- Advanced math: `sqrt`, `log`, `^ (power)`, `sin`, `cos`, `tan`
+- Delete last character and Clear all
+- GUI built with **Tkinter**
+- Error handling for invalid inputs
+- Expression display with real-time updates
 
 ---
 
-## 🚀 Usage
+## 🔧 Requirements
 
-1. Click buttons or use your keyboard to enter numbers/operators.  
-2. Press `=` to evaluate the expression.   
+- Python 3.x
+
+All required libraries are standard and come pre-installed with Python:
+```bash
+import tkinter
+import math
+```
 
 ---
 
-## 👨‍💻 Tech Stack
+## 📦 How to Run
 
-- **Python**: whole script is generated via core python  
+1. Clone this repository:
+```bash
+git clone https://github.com/MohitVaishnav2007/advanced-calculator.git
+cd advanced-calculator
+```
+
+2. Run the application:
+```bash
+python calculator.py
+```
+
+---
+
+## 📁 File Structure
+
+```bash
+advanced-calculator/
+├── calculator.py     # Main app file
+└── README.md         # Project readme
+```
+
+---
+
+## 🤖 Future Additions
+- Memory functions (MC, MR, M+, M-)
+- Unit converters
+- History log export
+- Dark/Light mode switch
+- Scientific constants
 
 ---
 
 ## 🤝 Contributing
-
-Thanks for considering contributing! To help out:
-
-1. **Fork** this repo  
-2. **Create** a branch:
-    ```bash
-    git checkout -b feature/YourFeatureName
-    ```
-3. **Commit** your changes:
-    ```bash
-    git commit -m "Add: description of your feature"
-    ```
-4. **Push** to your fork:
-    ```bash
-    git push origin feature/YourFeatureName
-    ```
-5. **Open** a Pull Request—I’ll review and merge improvements!
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
 ---
 
-## ⚙️ Future Enhancements
-
-- 🎨 Dark mode / theming support  
-- 🔢 Memory functions (M+, M-, MR)  
-- ⌨️ Enhanced keyboard input support  
-- 📐 Better formatting for large numbers  
-- 📱 Mobile-responsive design
+## 👨‍💻 Author
+**Mohit Vaishnav**  
+Cybersecurity & Python Enthusiast
 
 ---
 
-**Built with ❤️ by Mohit Vaishnav – enjoy exploring and expanding your calculator!**
+> Made with 💻 using Python and Tkinter
